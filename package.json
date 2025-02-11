@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --repo https://x-access-token:${GITHUB_TOKEN}@github.com/Yameogo123/fouss-tableau.git",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
