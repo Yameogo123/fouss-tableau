@@ -1,5 +1,5 @@
 
-import React, { useState, useMemo } from "react";
+import React from "react";
 //import { useSelector } from "react-redux";
 //import { toast } from "react-toastify";
 
@@ -7,7 +7,7 @@ import React, { useState, useMemo } from "react";
 
 export default function Home() {
 
-    const recent_works = [];
+    // const recent_works = [];
 
 
     function HomeBanner(){
