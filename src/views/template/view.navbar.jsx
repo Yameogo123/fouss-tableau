@@ -17,11 +17,11 @@ export default function ViewNavbar(){
                 </button>
                 <div id="my-nav" className="collapse navbar-collapse">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item active"> <a className="nav-link" href="/">Home</a> </li>
-                        <li className="nav-item"> <a className="nav-link" href="#about" tabIndex="-1" aria-disabled="true">About</a></li>
-                        <li className="nav-item"> <a className="nav-link" href="#activity" tabIndex="-1" aria-disabled="true">Activity</a></li>
+                        <li className="nav-item active"> <a className="nav-link" href="/">Accueil</a> </li>
+                        <li className="nav-item"> <a className="nav-link" href="#about" tabIndex="-1" aria-disabled="true">A propos</a></li>
+                        <li className="nav-item"> <a className="nav-link" href="#activity" tabIndex="-1" aria-disabled="true">Activité</a></li>
                         <li className="nav-item"> <a className="nav-link" href="#portfolio" tabIndex="-1" aria-disabled="true">Portfolio</a></li>
-                        <li className="nav-item"> <a className="nav-link" href="#testimonial" tabIndex="-1" aria-disabled="true">Testimonial</a></li>
+                        <li className="nav-item"> <a className="nav-link" href="#testimonial" tabIndex="-1" aria-disabled="true">Témoignage</a></li>
                         <li className="nav-item"> <a className="nav-link" href="blog" tabIndex="-1" aria-disabled="true">Blog</a></li>
                         <li className="nav-item"> <a className="nav-link" href="#contact" tabIndex="-1" aria-disabled="true">Contact</a></li>
                     </ul>

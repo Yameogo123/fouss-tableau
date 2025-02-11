@@ -11,8 +11,8 @@ import moment from 'moment';
 import { removeAll } from './hooks/hooks.localStorage';
 import { useLocation } from 'react-router-dom';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 import BasicRouting from './routing/hooks.basicRouting';
 // import SecurityRouting from './routing/hooks.securityRouting';
