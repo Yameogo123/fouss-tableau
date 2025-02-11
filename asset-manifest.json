@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fouss-tableau/static/css/main.0142586b.css",
-    "main.js": "/fouss-tableau/static/js/main.979e2fa2.js",
+    "main.css": "/fouss-tableau/static/css/main.40df3699.css",
+    "main.js": "/fouss-tableau/static/js/main.d43659b5.js",
     "index.html": "/fouss-tableau/index.html",
-    "main.0142586b.css.map": "/fouss-tableau/static/css/main.0142586b.css.map",
-    "main.979e2fa2.js.map": "/fouss-tableau/static/js/main.979e2fa2.js.map"
+    "main.40df3699.css.map": "/fouss-tableau/static/css/main.40df3699.css.map",
+    "main.d43659b5.js.map": "/fouss-tableau/static/js/main.d43659b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0142586b.css",
-    "static/js/main.979e2fa2.js"
+    "static/css/main.40df3699.css",
+    "static/js/main.d43659b5.js"
   ]
 }
