@@ -35,7 +35,7 @@ function App() {
     if(limit && now.diff(moment(limit), "M")>=1){
       logout();
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [limit, location])
 
 
