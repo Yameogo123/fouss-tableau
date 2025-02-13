@@ -18,7 +18,7 @@ export default function ViewFooter(){
                         </div>
                         <div className="field">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="3"></textarea>
+                            <textarea className="fixedSize" name="message" id="message" rows="3" ></textarea>
                         </div>
                     </div>
                     <ul className="actions">
@@ -29,8 +29,7 @@ export default function ViewFooter(){
             <section className="split contact">
                 <section className="alt">
                     <h3>Address</h3>
-                    <p>1234 Somewhere Road #87257<br />
-                    Nashville, TN 00000-0000</p>
+                    <p>1234 Somewhere Road #87257<br /> Nashville, TN 00000-0000</p>
                 </section>
                 <section>
                     <h3>Phone</h3>
