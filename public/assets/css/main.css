@@ -4692,7 +4692,7 @@ input, select, textarea {
 
 .fixedSize {
 	resize: none;
-	width: 90%; /* Default width for small screens */
+	width: 100%; /* Default width for small screens */
 	height: 100px; /* Default height for small screens */
 	padding: 10px;
 	font-family: Arial, sans-serif;
@@ -4705,7 +4705,7 @@ input, select, textarea {
 /* Medium screens (e.g., tablets) */
 @media (min-width: 600px) {
 	.fixedSize {
-		width: 50%; /* Adjust width for medium screens */
+		width: 80%; /* Adjust width for medium screens */
 		height: 150px; /* Adjust height for medium screens */
 	}
 }
