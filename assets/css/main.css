@@ -4687,3 +4687,33 @@ input, select, textarea {
 		}
 
 	}
+
+
+
+.fixedSize {
+	resize: none;
+	width: 90%; /* Default width for small screens */
+	height: 100px; /* Default height for small screens */
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+/* Medium screens (e.g., tablets) */
+@media (min-width: 600px) {
+	.fixedSize {
+		width: 50%; /* Adjust width for medium screens */
+		height: 150px; /* Adjust height for medium screens */
+	}
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 1024px) {
+	.fixedSize {
+		width: 500px; /* Fixed width for large screens */
+		height: 200px; /* Adjust height for large screens */
+	}
+}
