@@ -1,6 +1,7 @@
 
 import React from "react";
-import { recents, portfolios, monthlies, testimonials } from "../services/services.data"
+import ViewFooter from "./template/view.footer";
+//import { recents, portfolios, monthlies, testimonials } from "../services/services.data"
 //import { useSelector } from "react-redux";
 //import { toast } from "react-toastify";
 
@@ -13,225 +14,149 @@ export default function Home() {
 
     function HomeBanner(){
         return (
-            <>
-                <div className="container-fluid fh5co-home-banner">
-                    <div className="card">
-                        <img className="card-img" src="assets/img/banner-img.jpg" alt="" />
-                        <div className="card-img-overlay">
-                            <div className="center-text">
-                                <h2 className="card-title">A camera is the save button for the mind’s eye</h2>
-                                <a href="#!" className="btn">
-                                    <svg width="201" height="51" viewBox="0 0 201 51">
-                                        <defs>
-                                            <style>
-                                                {`
-                                                    .cls-1 {
-                                                        fill: none;
-                                                        stroke-width: 1px;
-                                                        stroke: url(#linear-gradient);
-                                                    }
-                                                `}
-                                            </style>
-                                            <linearGradient id="linear-gradient" x1="140.508" y1="50.5" x2="60.492" y2="0.5" gradientUnits="userSpaceOnUse">
-                                                <stop offset="0" stopColor="#e90e65" />
-                                                <stop offset="1" stopColor="#fff" />
-                                            </linearGradient>
-                                        </defs>
-                                        <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" className="cls-1" x="0.5" y="0.5" width="200" height="50" rx="25" ry="25" />
-                                    </svg>
-                                    Explorer
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="container-fluid fh5co-two-img">
-                    <div className="row">
-                        <div className="col-sm-6 pr-0 pl-0">
-                            <div className="card">
-                                <img className="card-img" src="assets/img/girl1.jpg" alt="" />
-                                <div className="card-img-overlay"> </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 pr-0 pl-0">
-                            <div className="card">
-                                <img className="card-img" src="assets/img/girl2.jpg" alt="" />
-                                <div className="card-img-overlay"> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </>
-        )
-    }
-
-
-
-    function RecentWork(){
-
-        return (
-            <div className="container-fluid fh5co-recent-work">
-                <div className="container contact-pop">
-                    <div className="row">
-                        <div className="col-md-6  pr-0">
-                            <div className="card"> 
-                                <img className="card-img w-100" src="assets/img/girl3.jpg" alt="" />
-                                <div className="card-img-overlay"> </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 pl-0" id="about">
-                            <div className="content">
-                                <h3>Je suis Fousseni KONATE</h3>
-                                <h4>Artiste peintre</h4>
-                                <hr />
-                                <p>Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.</p>
-                                <a href="#!" className="btn">CONTACT</a> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="container recent" id="activity">
-                    <div className="row">
-                        <h2>Récentes oeuvres</h2>
-                        <div className="owl-carousel owl-carousel2 owl-theme">
-                            {
-                                recents.length > 0 && 
-                                recents.map((rc, idx)=>
-                                    (
-                                        <div key={idx}>
-                                            <div className="card"> <img className="card-img" src={rc?.image} alt="" />
-                                                <div className="card-img-overlay"> 
-                                                    <a href="#!"><img src="assets/img/heart.png" className="heart" alt="heart icon" /></a>
-                                                    <div className="bottom-text">
-                                                        <h5 className="card-title">{rc?.titre}</h5>
-                                                        <p className="card-text">{rc?.description}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    )
-                                )
-                            }
-                        </div>
-                    </div>
-                </div>
+            <div id="intro">
+                <h1>This is<br /> Massively</h1>
+                <p>
+                    A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+                    and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.
+                </p>
+                <ul className="actions">
+                    <li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                </ul>
             </div>
         )
     }
 
-    function Portfolio(){
+
+
+    function Header(){
+
         return (
-            <div className="container-fluid recent fh5co-portfolio" id="portfolio">
-                <div className="container">
-                    <h2>Portfolios</h2>
-                    <div className="row">
-                        {
-                            portfolios.length > 0 && 
-                            portfolios.slice(0, 4).map((rc, idx)=>
-                                (
-                                    <div key={idx} className={"bx bx-"+(idx+1)}>
-                                        <div className="card"> <img className="card-img" src={rc?.image} alt={"img"+idx} />
-                                            <div className="card-img-overlay"> <a href="#!"><img src="assets/img/heart.png" className="heart" alt="heart icon" /></a>
-                                                <div className="bottom-text">
-                                                    <h5 className="card-title">{rc?.titre}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
-                            )
-                        }
-                        
-                        <div className="bx bx-middle" style={{"padding": "0"}}>
-                            {
-                                portfolios.length > 4 && 
-                                portfolios.slice(4, ).map((rc, idx)=>
-                                    (
-                                        <div key={idx} className={"bx bx-"+(idx+5)}>
-                                            <div className="card"> <img className="card-img" src={rc?.image} alt="img1" />
-                                                <div className="card-img-overlay"> <a href="#!"><img src="assets/img/heart.png" className="heart" alt="heart icon" /></a>
-                                                    <div className="bottom-text">
-                                                        <h5 className="card-title">{rc?.titre}</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    )
-                                )
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <header id="header">
+                <a href="/" className="logo">Massively</a>
+            </header>
+        )
+    }
+
+    function Nav(){
+        return (
+            <nav id="nav">
+                <ul className="links">
+                    <li className="active"><a href="/">This is Massively</a></li>
+                </ul>
+                <ul className="icons">
+                    <li><a href="#!" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
+                    <li><a href="#!" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
+                    <li><a href="#!" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
+                    <li><a href="#!" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+                </ul>
+            </nav>
         )
     }
     
-    function Monthly(){
+    function FeaturedPost(){
         return (
-            <div className="container-fluid fh5co-recent-work activity">
-                <div className="container recent">
-                    <div className="row">
-                        <h2>Activité du mois</h2>
-                        <div className="owl-carousel owl-carousel3 owl-theme">
-                            {
-                                monthlies.length > 0 && 
-                                monthlies.map((rc, idx)=>
-                                    (
-                                        <div key={idx}>
-                                            <div className="card"> <img className="card-img" src={rc?.image} alt="" />
-                                                <div className="card-img-overlay">
-                                                    <div className="bottom-text">
-                                                        <h5 className="card-title">{rc?.titre}</h5>
-                                                        <a href="#!">En savoir plus <img src="assets/img/double-right.svg" alt="" /></a> 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    )
-                                )
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <article className="post featured">
+                <header className="major">
+                    <span className="date">April 25, 2017</span>
+                    <h2><a href="#!">And this is a<br /> massive headline</a></h2>
+                    <p>
+                        Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+                        facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+                        amet nullam sed etiam veroeros.
+                    </p>
+                </header>
+                <a href="#!" className="image main"><img src="assets/images/pic01.jpg" alt="" /></a>
+                <ul className="actions special">
+                    <li><a href="#!" className="button large">Full Story</a></li>
+                </ul>
+            </article>
         )
     }
 
-    function Testimonials(){
+    function Posts(){
         return (
-            <div className="container-fluid fh5co-about-me" id="testimonial">
-                <div id="my-carousel" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="card"> <img className="card-img d-block w-100" src="assets/img/about-me-img.jpg" alt="" />
-                            <div className="card-img-overlay">
-                                <h2>Ce que les gens pensent de mes oeuvres</h2>
-                            </div>
-                        </div>
-                        {
-                            testimonials.length > 0 && 
-                            testimonials.map((rc, idx)=>
-                                (
-                                    <div key={idx} className={idx !==1 ? "carousel-item" : "carousel-item active"}>
-                                        <div className="carousel-caption d-md-block"> 
-                                            <img src="assets/img/quote-icon.png" alt="" />
-                                            <p>{rc?.mot}</p>
-                                        </div>
-                                    </div>
-                                )
-                            )
-                        }
-                    </div>
-                    <ol className="carousel-indicators">
-                        {
-                            testimonials.length > 0 && 
-                            testimonials.map((rc, idx)=>
-                                (
-                                    <li key={idx} className={idx===1 ? "active": ""} aria-current={idx===1 && "location"} data-target="#my-carousel" data-slide-to={idx} > <img src={rc?.image} alt="" /> <span>{rc?.auteur}</span> </li>
-                                )
-                            )
-                        }
-                    </ol>
-                </div>
+            <section className="posts">
+                <article>
+                    <header>
+                        <span className="date">April 24, 2017</span>
+                        <h2><a href="#!">Sed magna<br />
+                        ipsum faucibus</a></h2>
+                    </header>
+                    <a href="#!" className="image fit"><img src="assets/images/pic02.jpg" alt="" /></a>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+                    <ul className="actions special">
+                        <li><a href="#!" className="button">Full Story</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span className="date">April 22, 2017</span>
+                        <h2><a href="#!">Primis eget<br />
+                        imperdiet lorem</a></h2>
+                    </header>
+                    <a href="#!" className="image fit"><img src="assets/images/pic03.jpg" alt="" /></a>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+                    <ul className="actions special">
+                        <li><a href="#!" className="button">Full Story</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span className="date">April 18, 2017</span>
+                        <h2><a href="#!">Ante mattis<br />
+                        interdum dolor</a></h2>
+                    </header>
+                    <a href="#!" className="image fit"><img src="assets/images/pic04.jpg" alt="" /></a>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+                    <ul className="actions special">
+                        <li><a href="#!" className="button">Full Story</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span className="date">April 14, 2017</span>
+                        <h2><a href="#!">Tempus sed<br />
+                        nulla imperdiet</a></h2>
+                    </header>
+                    <a href="#!" className="image fit"><img src="assets/images/pic05.jpg" alt="" /></a>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+                    <ul className="actions special">
+                        <li><a href="#!" className="button">Full Story</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span className="date">April 11, 2017</span>
+                        <h2><a href="#!">Odio magna<br />
+                        sed consectetur</a></h2>
+                    </header>
+                    <a href="#!" className="image fit"><img src="assets/images/pic06.jpg" alt="" /></a>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+                    <ul className="actions special">
+                        <li><a href="#!" className="button">Full Story</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <header>
+                        <span className="date">April 7, 2017</span>
+                        <h2><a href="#!">Augue lorem<br />
+                        primis vestibulum</a></h2>
+                    </header>
+                    <a href="#!" className="image fit"><img src="assets/images/pic07.jpg" alt="" /></a>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+                    <ul className="actions special">
+                        <li><a href="#!" className="button">Full Story</a></li>
+                    </ul>
+                </article>
+            </section>
+        )
+    }
+
+    function Copyright(){
+        return (
+            <div id="copyright">
+                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
             </div>
         )
     }
@@ -239,10 +164,17 @@ export default function Home() {
     return (
         <div>
             <HomeBanner />
-            <RecentWork />
-            <Portfolio />
-            <Monthly />
-            <Testimonials />
+            <Header />
+            <Nav />
+
+            <div id="main">
+                <FeaturedPost />
+                <Posts />
+
+                <ViewFooter />
+                <Copyright />
+            </div>
+
         </div>
     )
 }

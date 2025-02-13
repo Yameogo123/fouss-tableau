@@ -16,8 +16,7 @@ import { useLocation } from 'react-router-dom';
 
 import BasicRouting from './routing/hooks.basicRouting';
 // import SecurityRouting from './routing/hooks.securityRouting';
-import ViewNavbar from './views/template/view.navbar';
-import ViewFooter from './views/template/view.footer';
+// import ViewNavbar from './views/template/view.navbar';
 
 function App() {
 
@@ -42,12 +41,10 @@ function App() {
 
   return (
     <div className="App">
-      <ViewNavbar />
-      <BasicRouting />
-      {/* {
-        user?.nom_complet ? <BasicRouting /> : <SecurityRouting />
-      } */}
-      <ViewFooter />
+      <div id="wrapper" className="fade-in">
+        <BasicRouting />
+      </div>
+
       <ToastContainer />
     </div>
   );
