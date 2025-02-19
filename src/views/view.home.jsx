@@ -16,8 +16,10 @@ export default function Home() {
             <div id="intro">
                 <h1>CréaColors Afrique</h1>
                 <p>
-                    A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-                    and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.
+                    La peinture autrement avec les couleurs, les motifs, tissus spéciaux d'Afrique. 
+                    Vivez l'Afrique depuis chez vous!  Faire vos commandes, nous faisons la livraison 
+                    partout dans le monde. N'hésitez pas à nous inviter pour des expositions lors de 
+                    vos évènements culturelles et artistiques dans vos régions.
                 </p>
                 <ul className="actions">
                     <li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -64,7 +66,7 @@ export default function Home() {
                         Matières : Toile, plâtre, bombes, fil, tissus bogolan en coton pur à motifs dogon, colle.
                     </p>
                 </header>
-                <a href="#!" className="image main"><img src="assets/images/top.png" alt="top" /></a>
+                <a href="#!" className="image main"><img src="assets/images/1.png" alt="top" /></a>
             </article>
         )
     }

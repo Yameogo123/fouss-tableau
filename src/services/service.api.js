@@ -125,10 +125,14 @@ export async function Remove(link, tok=""){
  * @returns {Promise<Object>} The API response data
  * @throws {Error} If the network request fails
  * @example
- * const data = {
- *   message: "Hello World",
- *   to: "+221XXXXXXXXX"
- * };
+ *  const data = {
+ *      "app_key": "xxxxxxxxxxxxxxxx", # from intech
+ *       "sender": "CréaColors Afrique",
+ *       "content": "message",
+ *       "msisdn":[
+ *           "+33xxxxxxxxxxxx"
+ *       ]
+ *  };
  * const response = await SendMessage(data);
  */
 export async function SendMessage(data){
