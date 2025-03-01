@@ -141,7 +141,7 @@ export async function SendMessage(data){
         //authorization:"Bearer "+tok,
     }
     const options = {
-        method: 'post',
+        method: 'POST',
         headers: head,
         body: JSON.stringify(data),
         redirect: 'follow'

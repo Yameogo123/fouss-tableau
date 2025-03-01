@@ -18,23 +18,22 @@ export default function ViewFooter(){
         e.preventDefault();
         if(nom && message){
             const mess = `CréaColors Afrique: Message de la part de ${nom} (${email}): ${message}`;
-            const to = "+33766422645";
             const data = {
-                "app_key": "6074FFEF083EF0830D960740E8",
-                "sender": "CréaColors Afrique",
+                "app_key": "647606299B1A3647606299B1A4",
+                "sender": "Bokoo",
                 "content": mess,
-                "msisdn":[
-                    to
-                ]
+                "msisdn":["+33766422645"]
             }
 
             const result = await SendMessage(data);
+            
+            
             if(result?.error){
                 toast.warning("Message non envoyé. Souci avec le serveur!")
             }else{
-                emptyAll();
                 toast.success("Message envoyé avec succès.");
             }
+            emptyAll();
             
         }else{
             toast.warning("Veuillez saisir un nom et un message.");
@@ -48,15 +47,15 @@ export default function ViewFooter(){
                     <div className="fields">
                         <div className="field">
                             <label for="name">Nom*</label>
-                            <input onChange={(e)=>getInputedValue(e, setNom)} type="text" name="name" id="name" />
+                            <input onChange={(e)=>getInputedValue(e, setNom)} value={nom} type="text" name="name" id="name" />
                         </div>
                         <div className="field">
                             <label for="email">Email / Téléphone</label>
-                            <input onChange={(e)=>getInputedValue(e, setEmail)} type="text" name="email" id="email" />
+                            <input onChange={(e)=>getInputedValue(e, setEmail)} value={email} type="text" name="email" id="email" />
                         </div>
                         <div className="field">
                             <label for="message">Message*</label>
-                            <textarea onChange={(e)=>getInputedValue(e, setMessage)} className="fixedSize" name="message" id="message" rows="3" ></textarea>
+                            <textarea onChange={(e)=>getInputedValue(e, setMessage)} value={message} className="fixedSize" name="message" id="message" rows="3" ></textarea>
                         </div>
                     </div>
                     <ul className="actions">
