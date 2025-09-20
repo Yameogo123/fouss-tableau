@@ -99,7 +99,7 @@ export const recents = [
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/De ombre à la lumiere.jpg"
+        "image": "assets/images/De ombre a la lumiere.jpg"
     },
     {
         "titre": "« Femmes du Village »",
