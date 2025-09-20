@@ -16,33 +16,34 @@ export const recents = [
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
         "image": "assets/images/Femme au mortier.jpg"
-    },{
+    },
+    {
         "titre": "« La rivière d'or »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/La rivière d'or.jpg"
+        "image": "assets/images/La riviere or.jpg"
     },
     {
         "titre": "« Kôkô dwon da »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Kôkô dwon da.jpg"
+        "image": "assets/images/Koko dwon da.jpg"
     },
     {
         "titre": "«Kôkô dwon da en épi »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Kôkô dwon da en épi.jpg"
+        "image": "assets/images/Koko dwon da en epi.jpg"
     },
     {
         "titre": "« L'Amour vrai »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/L'Amour vrai.jpg"
+        "image": "assets/images/Amour vrai.jpg"
     },{
         "titre": "« Le pillier 1 »",
         "taille": "80/60 cm",
@@ -62,31 +63,31 @@ export const recents = [
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/La planche bôgôlan.jpg"
+        "image": "assets/images/La planche bogolan.jpg"
     },{
         "titre": "« l'Envol »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/l'Envol.jpg"
+        "image": "assets/images/Envol.jpg"
     },{
         "titre": "« L'univers »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/L'univers.jpg"
+        "image": "assets/images/univers.jpg"
     },{
         "titre": "« Coeur Blanc au bôgôlan »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Coeur Blanc au bôgôlan.jpg"
+        "image": "assets/images/Coeur Blanc au bogolan.jpg"
     },{
         "titre": "« Corps de femme au bôgôlan »",
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Corps de femme au bôgôlan.jpg"
+        "image": "assets/images/Corps de femme au bogolan.jpg"
     },{
         "titre": "« La richesse »",
         "taille": "80/60 cm",
@@ -98,12 +99,8 @@ export const recents = [
         "taille": "80/60 cm",
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/De l'ombre à la lumière.jpg"
+        "image": "assets/images/De ombre à la lumiere.jpg"
     },
-
-
-
-
     {
         "titre": "« Femmes du Village »",
         "taille": "80/60 cm",
