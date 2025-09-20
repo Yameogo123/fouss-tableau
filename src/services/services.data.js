@@ -9,6 +9,101 @@ export const recents = [
     //     "description": "Matières : Toile, plâtre, bombes, fil, tissus bogolan en coton pur à motifs dogon, colle.",
     //     "image": "assets/images/1.png"
     // }, 
+
+    {
+        "titre": "« Femme au mortier »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/Femme au mortier.jpg"
+    },{
+        "titre": "« La rivière d'or »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/La rivière d'or.jpg"
+    },
+    {
+        "titre": "« Kôkô dwon da »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/Kôkô dwon da.jpg"
+    },
+    {
+        "titre": "«Kôkô dwon da en épi »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/Kôkô dwon da en épi.jpg"
+    },
+    {
+        "titre": "« L'Amour vrai »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/L'Amour vrai.jpg"
+    },{
+        "titre": "« Le pillier 1 »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/Le pillier 1.jpg"
+    },
+    {
+        "titre": "« La femme vanneuse »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/La femme vanneuse.jpg"
+    },
+    {
+        "titre": "« La planche bôgôlan »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/La planche bôgôlan.jpg"
+    },{
+        "titre": "« l'Envol »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/l'Envol.jpg"
+    },{
+        "titre": "« L'univers »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/L'univers.jpg"
+    },{
+        "titre": "« Coeur Blanc au bôgôlan »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/Coeur Blanc au bôgôlan.jpg"
+    },{
+        "titre": "« Corps de femme au bôgôlan »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/Corps de femme au bôgôlan.jpg"
+    },{
+        "titre": "« La richesse »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/La richesse.jpg"
+    },{
+        "titre": "« De l'ombre à la lumière »",
+        "taille": "80/60 cm",
+        "prix": "130€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/De l'ombre à la lumière.jpg"
+    },
+
+
+
+
     {
         "titre": "« Femmes du Village »",
         "taille": "80/60 cm",
@@ -22,13 +117,6 @@ export const recents = [
         "prix": "130€",
         "description": "Matières : Toile, enduit, bombes, fil, tissu bogolan en coton pur à motifs dogons, colle",
         "image": "assets/images/3.png"
-    },
-    {
-        "titre": "« Corps de Femme »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu coton pur à motifs dogons, colle",
-        "image": "assets/images/4.png"
     },
     {
         "titre": "« Les anges de l’amour »",
