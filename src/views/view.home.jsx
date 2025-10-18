@@ -34,7 +34,7 @@ export default function Home() {
 
         return (
             <header id="header">
-                <a href="/" className="logo">Massively</a>
+                <a href="/" className="logo">CreaColors Afrique</a>
             </header>
         )
     }
@@ -66,7 +66,7 @@ export default function Home() {
                         Matières : Toile, plâtre, bombes, fil, tissus bogolan en coton pur à motifs dogon, colle.
                     </p>
                 </header>
-                <a href="#!" className="image main"><img src="assets/images/1.png" alt="top" /></a>
+                <a href="#!" className="image main"><img src="assets/images/header.jpg" alt="top" /></a>
             </article>
         )
     }

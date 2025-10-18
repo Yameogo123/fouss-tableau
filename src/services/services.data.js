@@ -2,223 +2,166 @@
 
 // must be 4
 export const recents = [
-    // {
-    //     "titre": "« Le pont du bonheur »",
-    //     "taille": "80/80 cm",
-    //     "prix": "275€",
-    //     "description": "Matières : Toile, plâtre, bombes, fil, tissus bogolan en coton pur à motifs dogon, colle.",
-    //     "image": "assets/images/1.png"
-    // }, 
-
     {
-        "titre": "« Femme au mortier »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Femme au mortier.jpg"
+        "titre": "« Le tunnel du bonheur »",
+        "taille": "90/90 cm",
+        "prix": "350€",
+        "description": "Un tableau sur toile fait de plâtre à la colle et de tissu traditionnel bôgôlan (Afrique de l’Ouest)",
+        "image": "assets/images/1.png"
     },
     {
-        "titre": "« La rivière d'or »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/La riviere or.jpg"
-    },
-    {
-        "titre": "« Kôkô dwon da »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Koko dwon da.jpg"
-    },
-    {
-        "titre": "«Kôkô dwon da en épi »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Koko dwon da en epi.jpg"
-    },
-    {
-        "titre": "« L'Amour vrai »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Amour vrai.jpg"
-    },{
-        "titre": "« Le pillier 1 »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Le pillier 1.jpg"
-    },
-    {
-        "titre": "« La femme vanneuse »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/La femme vanneuse.jpg"
-    },
-    {
-        "titre": "« La planche bôgôlan »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/La planche bogolan.jpg"
-    },{
-        "titre": "« l'Envol »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Envol.jpg"
-    },{
-        "titre": "« L'univers »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/univers.jpg"
-    },{
-        "titre": "« Coeur Blanc au bôgôlan »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Coeur Blanc au bogolan.jpg"
-    },{
-        "titre": "« Corps de femme au bôgôlan »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/Corps de femme au bogolan.jpg"
-    },{
-        "titre": "« La richesse »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/La richesse.jpg"
-    },{
-        "titre": "« De l'ombre à la lumière »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/De ombre a la lumiere.jpg"
-    },
-    {
-        "titre": "« Femmes du Village »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "titre": "« Le pont du bonheur »",
+        "taille": "90/90 cm",
+        "prix": "35€",
+        "description": "Un tableau sur toile fait d’enduit à la colle et de tissu traditionnel bôgôlan (Afrique de l’Ouest)",
         "image": "assets/images/2.png"
     },
     {
-        "titre": "« Le bonheur Croisé »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissu bogolan en coton pur à motifs dogons, colle",
+        "titre": "« Le Progrès au Kôkô donda »",
+        "taille": "100/70 cm",
+        "prix": "250€",
+        "description": "Tableau sur toile, fait d’enduit à la colle, de tissu bôgôlan, du fil",
         "image": "assets/images/3.png"
+    },
+    {
+        "titre": "« L'oeil du danfani »",
+        "taille": "80/60 cm",
+        "prix": "210€",
+        "description": "Tableau sur toile, peinture, enduit, tissu faso danfani, colle",
+        "image": "assets/images/4.png"
+    },
+    {
+        "titre": "« L'Autoroute du faso danfani »",
+        "taille": "80/60 cm",
+        "prix": "210€",
+        "description": "Tableau sur toile, peinture, enduit, tissu faso danfani, colle",
+        "image": "assets/images/5.png"
+    },{
+        "titre": "« Disque de kôko donda »",
+        "taille": "80/60 cm",
+        "prix": "240€",
+        "description": "Matières : peinture, enduit, Lèfê artisanal, tissu kôko donda",
+        "image": "assets/images/6.png"
+    },
+    {
+        "titre": "« Feuille Kôkô donda »",
+        "taille": "80/60 cm",
+        "prix": "250€",
+        "description": "Matières : enduit, tissu kôkô don da, ",
+        "image": "assets/images/7.jpg"
+    },
+    {
+        "titre": "« Faso danfani aux coris »",
+        "taille": "50/40 cm",
+        "prix": "70€",
+        "description": "Matières : peinture, enduit, tissu faso danfani, coris",
+        "image": "assets/images/8.png"
+    },{
+        "titre": "« Rond point du faso danfani »",
+        "taille": "80/60 cm",
+        "prix": "240€",
+        "description": "Matières : Toile, enduit, bombes, fil, tissu batik imagé, colle",
+        "image": "assets/images/9.png"
+    },{
+        "titre": "« Femme battante »",
+        "taille": "80/60 cm",
+        "prix": "210€",
+        "description": "Matières : peinture, enduit, tissu batik imagé",
+        "image": "assets/images/10.png"
+    },{
+        "titre": "« Disque Lêfê »",
+        "taille": "50/40 cm",
+        "prix": "180€",
+        "description": "Matières : peinture, enduit, Lêfê, coris",
+        "image": "assets/images/11.png"
+    },{
+        "titre": "« Disque Lêfê »",
+        "taille": "50/40 cm",
+        "prix": "180€",
+        "description": "Matières : peinture, enduit, Lêfê, coris",
+        "image": "assets/images/12.png"
+    },{
+        "titre": "« Disque Lêfê »",
+        "taille": "50/40 cm",
+        "prix": "180€",
+        "description": "Matières : peinture, enduit, Lêfê, coris",
+        "image": "assets/images/13.png"
+    },{
+        "titre": "« Rives d'orées du faso danfani »",
+        "taille": "50/40 cm",
+        "prix": "80€",
+        "description": "Matières : Peinture, enduit, tissu faso danfani",
+        "image": "assets/images/14.png"
+    },
+    {
+        "titre": "« Tâche quotidienne »",
+        "taille": "80/60 cm",
+        "prix": "210€",
+        "description": "Matières : Peinture, enduit, tissu batik imagé",
+        "image": "assets/images/15.png"
     },
     {
         "titre": "« Les anges de l’amour »",
         "taille": "80/60 cm",
-        "prix": "140€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, bombes, fil, tissu batik imagé, colle",
-        "image": "assets/images/5.png"
-    },
-    {
-        "titre": "« Les deux Rives »",
-        "taille": "70/50 cm",
-        "prix": "110€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, enduit, bombes, fil, tissu à motif cauris, colle",
-        "image": "assets/images/6.png"
-    },
-    {
-        "titre": "« L’Amour Mixte »",
-        "taille": "70/50 cm",
-        "prix": "110€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, enduit, bombes, fil, tissu bogolan à motifs dogons, colle",
-        "image": "assets/images/7.png"
-    },
-    {
-        "titre": "« Corps de femme »",
-        "taille": "70/50 cm",
-        "prix": "110€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, enduit, bombes, fil, tissu à motif cauris, colle",
-        "image": "assets/images/8.png"
-    },
-    {
-        "titre": "« Pour le vie »",
-        "taille": "70/50 cm",
-        "prix": "110€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, enduit, bombes, fil, tissu à motif cauris, colle",
-        "image": "assets/images/9.png"
-    },
-    {
-        "titre": "« Les cauris parlent »",
-        "taille": "70/50 cm",
-        "prix": "110€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, enduit, bombes, fil, tissu bogolan à motifs dogons, colle »",
-        "image": "assets/images/10.png"
-    },
-    {
-        "titre": "« Le champ de la vie »",
-        "taille": "70/50 cm",
-        "prix": "110€",
-        "description": "Matières : Tableau en Cartonnette dure et vitrée, enduit, bombes, fil, tissu bogolan à motifs dogons, colle »",
-        "image": "assets/images/11.png"
-    },
-    {
-        "titre": "« Le bois protecteur »",
-        "taille": "70/50 cm",
-        "prix": "100€",
-        "description": "Matières : Toile, plâtre, bombes, fil, tissus bogolan en coton pur à motifs Dogon, colle.",
-        "image": "assets/images/12.png"
-    },
-    {
-        "titre": "« Le fleuve du bonheur »",
-        "taille": "70/50 cm",
-        "prix": "80€",
-        "description": "Matières : Toile, plâtre, bombes",
-        "image": "assets/images/13.png"
-    },
-    {
-        "titre": "« Le boulevard du bonheur »",
-        "taille": "70/50 cm",
-        "prix": "100€",
-        "description": "Matières : Toile, plâtre, bombes, fil, tissus bogolan en coton pur à motifs Dogon, colle.",
-        "image": "assets/images/14.png"
-    },
-    {
-        "titre": "« Le premier moulin »",
-        "taille": "80/60 cm",
-        "prix": "130€",
-        "description": "Matières : Toile, enduit, bombes, fil, tissus batik à image, colle.",
-        "image": "assets/images/15.png"
-    },
-    {
-        "titre": "« Le bogolan 1 »",
-        "taille": "70/50 cm",
-        "prix": "120€",
-        "description": "Matières : Tableau en Cartonnette, enduit, bombes, fil, tissu Kôkô dongda, colle ».",
+        "prix": "210€",
+        "description": "Matières : Peinture, enduit, tissu batik imagé",
         "image": "assets/images/16.png"
     },
     {
-        "titre": "« Le bogolan 2 »",
-        "taille": "70/50 cm",
-        "prix": "120€",
-        "description": "Matières : Tableau en Cartonnette dure et vitée, enduit, bombes, fil, tissu Kôkô dongda, colle »",
+        "titre": "« Le carré des coris »",
+        "taille": "120/40cm",
+        "prix": "220€",
+        "description": "Tableau sur toile fait de peinture, plâtre, tissu, coris",
         "image": "assets/images/17.png"
     },
     {
-        "titre": "« Le Baobab »",
-        "taille": "70/50 cm",
-        "prix": "120€",
-        "description": "Matières : Tableau en Cartonnette dure, enduit, bombes, tissu bogolan en coton, colle »",
+        "titre": "« Les ruisseaux du bonheur »",
+        "taille": "120/40cm",
+        "prix": "220€",
+        "description": "Tableau sur toile fait de peinture, enduit, tissu, fils",
         "image": "assets/images/18.png"
     },
     {
-        "titre": "« La clairière »",
-        "taille": "70/50 cm",
-        "prix": "120€",
-        "description": "Matières : Tableau en Cartonnette dure, enduit, bombes, tissu bogolan en coton, colle »",
+        "titre": "« Les espoirs »",
+        "taille": "120/40cm",
+        "prix": "220€",
+        "description": "Tableau sur toile fait de peinture, enduit, tissu bogolan a coton",
         "image": "assets/images/19.png"
+    },
+    {
+        "titre": "« Les symboles du royaume »",
+        "taille": "120/40cm",
+        "prix": "220€",
+        "description": "Tableau sur toile fait de peinture, enduit, tissu royal aux coris",
+        "image": "assets/images/20.png"
+    },
+    {
+        "titre": "« Coeur blanc au Bôgôlan »",
+        "taille": "70/50 cm",
+        "prix": "190€",
+        "description": "Matières : Tableau sur du bois, vitrée, enduit, tissu bôgôlan",
+        "image": "assets/images/21.jpg"
+    },
+    {
+        "titre": "« Corps de femme »",
+        "taille": "80/60 cm",
+        "prix": "230€",
+        "description": "Matières : Tableau sur toile, peinture, enduit, tissu bôgôlan »",
+        "image": "assets/images/22.jpg"
+    },
+    {
+        "titre": "« L'amour vrai »",
+        "taille": "70/60 cm",
+        "prix": "190€",
+        "description": "Matières : Tableau sur enduit et batik, peinture »",
+        "image": "assets/images/23.png"
+    },
+    {
+        "titre": "« L'univers' »",
+        "taille": "30/30 cm",
+        "prix": "40€",
+        "description": "Tableau multicolore fait sur toile.",
+        "image": "assets/images/24.jpg"
     }
 ];
 
