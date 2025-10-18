@@ -1,44 +1,44 @@
 
-import React, { useState } from "react"
-import { emptyAllFields, getInputedValue } from "../../controllers/controller.utils";
-import { toast } from "react-toastify";
-import { SendMessage } from "../../services/service.api";
+// import React, { useState } from "react"
+// import { emptyAllFields, getInputedValue } from "../../controllers/controller.utils";
+// import { toast } from "react-toastify";
+// import { SendMessage } from "../../services/service.api";
 
 export default function ViewFooter(){
 
-    const [nom, setNom] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+    // const [nom, setNom] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [message, setMessage] = useState("");
 
-    function emptyAll(){
-        emptyAllFields([setEmail, setNom, setMessage])
-    }
+    // function emptyAll(){
+    //     emptyAllFields([setEmail, setNom, setMessage])
+    // }
 
-    async function sendIt(e){
-        e.preventDefault();
-        if(nom && message){
-            const mess = `CréaColors Afrique: Message de la part de ${nom} (${email}): ${message}`;
-            const data = {
-                "app_key": "647606299B1A3647606299B1A4",
-                "sender": "CréaColors Afrique",
-                "content": mess,
-                "msisdn":["+33766422645"]
-            }
+    // async function sendIt(e){
+    //     e.preventDefault();
+    //     if(nom && message){
+    //         const mess = `CréaColors Afrique: Message de la part de ${nom} (${email}): ${message}`;
+    //         const data = {
+    //             "app_key": "647606299B1A3647606299B1A4",
+    //             "sender": "CréaColors Afrique",
+    //             "content": mess,
+    //             "msisdn":["+33766422645"]
+    //         }
 
-            const result = await SendMessage(data);
+    //         const result = await SendMessage(data);
             
             
-            if(result?.error){
-                toast.warning("Message non envoyé. Souci avec le serveur!")
-            }else{
-                toast.success("Message envoyé avec succès.");
-            }
-            emptyAll();
+    //         if(result?.error){
+    //             toast.warning("Message non envoyé. Souci avec le serveur!")
+    //         }else{
+    //             toast.success("Message envoyé avec succès.");
+    //         }
+    //         emptyAll();
             
-        }else{
-            toast.warning("Veuillez saisir un nom et un message.");
-        }
-    }
+    //     }else{
+    //         toast.warning("Veuillez saisir un nom et un message.");
+    //     }
+    // }
 
     return (
         <footer id="footer">
