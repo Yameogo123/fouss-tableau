@@ -162,6 +162,20 @@ export const recents = [
         "prix": "40€",
         "description": "Tableau multicolore fait sur toile.",
         "image": "assets/images/24.jpg"
+    },
+    {
+        "titre": "« Le coeur en bôgôlan »",
+        "taille": "30/30 cm",
+        "prix": "30€ l'unité",
+        "description": "Tableau fait sur toile, peinture, tissu bôgôlan, coris",
+        "image": "assets/images/26.png"
+    },
+    {
+        "titre": "« Le coeur en faso danfani »",
+        "taille": "30/30 cm",
+        "prix": "30€",
+        "description": "Tableau fait sur toile, peinture, faso danfani, coris",
+        "image": "assets/images/25.png"
     }
 ];
 

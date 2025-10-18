@@ -85,12 +85,13 @@ export default function ViewFooter(){
                     <h3>Social</h3>
                     <ul className="icons alt">
                         <li><a href="https://wa.me/33617015964" className="icon brands alt fa-whatsapp"><span className="label">Whatsapp</span></a></li>
-                        <li><a href="#!" className="icon brands alt fa-facebook-f"><span className="label">Facebook</span></a></li>
-                        <li><a href="#!" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
-                        <li><a href="#!" className="icon brands alt fa-tiktok"><span className="label">Tiktok</span></a></li>
+                        {/* <li><a href="#!" className="icon brands alt fa-facebook-f"><span className="label">Facebook</span></a></li> */}
+                        <li><a href="https://www.instagram.com/creacolorsafrique25?igsh=OG4xNnM0MnY3Ynh3" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
+                        <li><a href="https://www.tiktok.com/@cracolorsafrique?_t=ZN-90eh51gS5F0&_r=1" className="icon brands alt fa-tiktok"><span className="label">Tiktok</span></a></li>
                     </ul>
                 </section>
             </section>
         </footer>
     )
 }
+
