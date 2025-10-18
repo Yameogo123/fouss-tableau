@@ -12,7 +12,7 @@ export const recents = [
     {
         "titre": "« Le pont du bonheur »",
         "taille": "90/90 cm",
-        "prix": "35€",
+        "prix": "350€",
         "description": "Un tableau sur toile fait d’enduit à la colle et de tissu traditionnel bôgôlan (Afrique de l’Ouest)",
         "image": "assets/images/2.png"
     },

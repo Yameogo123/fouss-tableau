@@ -20,7 +20,7 @@ export default function ViewFooter(){
             const mess = `CréaColors Afrique: Message de la part de ${nom} (${email}): ${message}`;
             const data = {
                 "app_key": "647606299B1A3647606299B1A4",
-                "sender": "Bokoo",
+                "sender": "CréaColors Afrique",
                 "content": mess,
                 "msisdn":["+33766422645"]
             }
@@ -42,7 +42,7 @@ export default function ViewFooter(){
 
     return (
         <footer id="footer">
-            <section>
+            {/* <section>
                 <div>
                     <div className="fields">
                         <div className="field">
@@ -64,19 +64,22 @@ export default function ViewFooter(){
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> */}
             <section className="split contact">
                 <section className="alt">
                     <h3>Adresse</h3>
                     <p>10 Allée du Clos des Mûres, <br /> 26240 Laveyron/France </p>
                 </section>
-                <section>
+                <section className="alt">
                     <h3>Téléphone</h3>
-                    <p><a href="tel:+33766422645">(+33)766422645</a></p>
+                    <p>
+                        <a href="tel:+33766422645">(+33)766422645</a><br />
+                        <a href="tel:+33617015964">(+33)617015964</a>
+                    </p>
                 </section>
                 <section>
                     <h3>Email</h3>
-                    <p><a href="mailto:contact@lafya-projet-etude.fr">contact@lafya-projet-etude.fr</a></p>
+                    <p><a href="mailto:creacolorsa@gmail.com">creacolorsa@gmail.com</a></p>
                 </section>
                 <section>
                     <h3>Social</h3>
